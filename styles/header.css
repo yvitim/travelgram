@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+}
+
+header #profile {
+  max-width: 592px;
+  display: flex;
+  column-gap: 32px;
+}
+
+header #profile > div h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+header #profile > div p {
+  font: var(--text-md);
+}
+
+header #info {
+  width: 280px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+header #info li {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  font: var(--text-md);
+}
