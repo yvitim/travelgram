@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+  
+  font-size: 14px;
+}
+
+footer > div {
+  display: flex;
+  column-gap: 16px;
+}
+
+footer > div a {
+  padding: 4px;
+}
